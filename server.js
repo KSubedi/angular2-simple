@@ -13,4 +13,5 @@ app.use((req, res) => {
 
 app.listen(3000, function () {
   console.log('Angular App Is Running!');
+  console.log('Open http://localhost:3000/ on your browser!');
 });
