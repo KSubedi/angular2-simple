@@ -2,7 +2,8 @@
 Simple static file server that will send index.html if the file is not found. Useful for developing angular apps.
 */ 
 
-var app = require("express")();
+var express = require("express");
+var app = express();
 
 app.use(express.static("dist"));
 
